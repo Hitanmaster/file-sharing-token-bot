@@ -20,11 +20,11 @@ YT = environ.get("YT", "")
 # Bot Information
 API_ID = int(environ.get("API_ID", "29324866"))
 API_HASH = environ.get("API_HASH", "2d41c2224fd999a81f6c90ce68b0454a")
-BOT_TOKEN = environ.get("BOT_TOKEN", "6926547228:AAGWVc-PuZu0ZSU-q5pOu1AJCzshUkg16p8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7358565183:AAFNxOVSkrYARHmpnqrqSVSxJ9PVX0NmfiA")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/0db18dde98ea3d0d4df0a.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7233389466').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "contents_provider_bot") # without @
 PORT = environ.get("PORT", "8585")
 
 # Clone Info :-
